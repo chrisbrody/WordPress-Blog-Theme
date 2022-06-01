@@ -42,7 +42,7 @@
   // when wp runs this hook 'wp_enqueue_scripts' also call my function 'blogchris_register_scripts'
   add_action( 'wp_enqueue_scripts', 'custom_theme_register_scripts');
 
-
+  // create custom widgets
   function custom_theme_widget_area() {
     register_sidebar(
       array(
